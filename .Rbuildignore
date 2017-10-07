@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^makefile$
+^README.md$
+^CONTRIBUTING.md$
+^NEWS.md$
+^logo.png$
+^logo-518x600.png$
+^.*\.Rout$
+^.gitlab-ci.yml$
+^.gitlab-ci-r-setup.R$

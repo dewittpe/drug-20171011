@@ -1,0 +1,14 @@
+Package: prgm.with.dplyr
+Title: Programming with dplyr
+Version: 0.0.1
+Authors@R: person("Peter", "DeWitt", email = "dewittpe@gmail.com", role = c("aut", "cre"))
+Description: Step by Step example of building a package requiring you to
+    program withe dplyr.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr (>= 0.7.0),
+    ggplot2 (>= 2.2.0),
+    magrittr,
+RoxygenNote: 6.0.1
