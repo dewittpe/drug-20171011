@@ -8,5 +8,6 @@ Description: Example of NSE functions with dplyr in a package.
 License: GPL-2
 LazyData: true
 Imports:
-    dplyr
+    dplyr,
+    rlang
 RoxygenNote: 6.0.1
