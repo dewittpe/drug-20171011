@@ -18,5 +18,5 @@
 #'
 #' @export
 my_filter <- function(x, args) {
-  dplyr::filter_(x, .dots = lazyeval::interp( ~ a, a = substitute(args)))
+  dplyr::filter(x, !!dplyr::enquo(args))
 } 
