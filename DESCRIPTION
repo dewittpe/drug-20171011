@@ -1,0 +1,12 @@
+Package: nse.example
+Title: Non-standard Evaluation Example Package
+Version: 0.0.1.9000
+Authors@R: c(
+    person("Peter", "DeWitt", , "dewittpe@gmail.com", role = c("aut", "cre"))
+    )
+Description: Example of NSE functions with dplyr in a package.
+License: GPL-2
+LazyData: true
+Imports:
+    dplyr
+RoxygenNote: 6.0.1
