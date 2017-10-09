@@ -4,12 +4,12 @@
 \alias{my_filter}
 \title{My Summary}
 \usage{
-my_filter(x, args)
+my_filter(x, ...)
 }
 \arguments{
 \item{x}{a data.frame}
 
-\item{args}{the filtering conditions}
+\item{...}{the filtering conditions}
 }
 \value{
 a data.frame
@@ -26,8 +26,8 @@ if (!all.equal(v1, v2)) {
   stop("my_filter is broken", call. = FALSE)
 }
 
-v3 <- dplyr::filter(mtcars, mpg < 14 & hp > 220)
-v4 <- my_filter(mtcars, mpg < 14 & hp > 220)
+v3 <- dplyr::filter(mtcars, mpg < 14, hp > 220)
+v4 <- my_filter(mtcars, mpg < 14, hp > 220)
 
 if (!all.equal(v3, v4)) {
   stop("my_filter is broken", call. = FALSE)
