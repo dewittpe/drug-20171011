@@ -24,7 +24,17 @@ No slides.  Instead, use git and checkout each tag and look at the files and run
 to run `R CMD check` and see the warnings and notes that come up.  Comments in
 the code and/or this read me file will be used to note talking points.
 
-## Tags
+## Branches and Tags
 
+### Three branches: 
+1. `master` just two commits, with a README file
+2. `nse` simple examples of NSE with dplyr, similar to
+   `vignette("programming", package = "dplyr")`  and extending to use in a
+   package.
+3. `dev` using `rlang::enquo` and `rlang::quos` in a package.
+
+### Tags
 1. `step00` The initial commit with just this `README.md` file.
+2. `nse01`, `nse02`, and `nse03` for build up of the NSE example.
+2. `step01`, `step02`, and `step03` for the enquo and quos examples.
 
